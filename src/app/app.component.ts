@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'morada-app';
+  estoesuntexto!:String;
+  esValido = false;
+  esValido2 : Boolean = true;
+  userName = "Alejandro Mejia";
 }
